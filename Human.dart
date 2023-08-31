@@ -23,12 +23,13 @@ class Human{
 
   // method
   void walk(){
-    print("${this.name} is walking now");
+    print("${this.name} is ${this.age} walking now");
   }
   void eat(){
-    print("${this.name} is eating now");
+    print("${this.name} is ${this.age} eating now");
+    print(this.id);
   }
   void sleep(){
-    print("${this.name} is sleep now");
+    print("${this.name} is ${this.age} sleep now");
   }
 }
